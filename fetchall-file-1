@@ -1,0 +1,15 @@
+0.08s  1420393  https://ip-ranges.amazonaws.com/ip-ranges.json
+0.22s    51859  https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html
+0.38s    31436  https://godoc.org
+0.59s    61870  https://golang.org
+0.90s     4154  http://gopl.io
+0.06s  1420393  https://ip-ranges.amazonaws.com/ip-ranges.json
+0.22s    51859  https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html
+0.30s    31436  https://godoc.org
+0.37s    61870  https://golang.org
+0.89s     4154  http://gopl.io
+0.11s  1420393  https://ip-ranges.amazonaws.com/ip-ranges.json
+0.24s    51859  https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html
+0.43s    61870  https://golang.org
+0.46s    31436  https://godoc.org
+1.07s     4154  http://gopl.io

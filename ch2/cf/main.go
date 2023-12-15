@@ -9,9 +9,11 @@ package main
 
 import (
 	"fmt"
+	"gopl.io/ch2/weightconv"
 	"os"
 	"strconv"
 
+	"gopl.io/ch2/lenconv"
 	"gopl.io/ch2/tempconv"
 )
 
@@ -24,8 +26,15 @@ func main() {
 		}
 		f := tempconv.Fahrenheit(t)
 		c := tempconv.Celsius(t)
-		fmt.Printf("%s = %s, %s = %s\n",
-			f, tempconv.FToC(f), c, tempconv.CToF(c))
+		m := lenconv.Meter(t)
+		k := weightconv.Kilogram(t)
+
+		fmt.Printf("%s = %s, %s = %s,%s = %s, %s = %s, %s = %s\n",
+			f, tempconv.FToC(f),
+			c, tempconv.CToF(c),
+			c, tempconv.CToK(c),
+			m, lenconv.MToF(m),
+			k, weightconv.KToP(k))
 	}
 }
 
